@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish_to_pypi:
-    name: Push Package to PyPI
+    name: Build and publish package
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo

@@ -4,12 +4,6 @@ Install with `pip install yeonji`
 
 Lists sizes of all backups in a borg repository. Type `borgsize *repopath*`, e.g. `borgsize ~/myrepos/coolrepo`.
 
-# flacco
-
-Flacco is a simple tool for organizing CD rips from cdparanoia. It renames the flac files (or converts from wav files) and tags them with the desired title in one step. Type `flacco *num* *title*`, e.g. `flacco 1 "As If It's Your Last"`.
-
-[AUR](https://aur.archlinux.org/packages/flacco/)
-
 # fsclean
 
 Clean unicode filenames in a directory tree. Use `--dryrun` to check what would be renamed. Existing files will not be overwritten.

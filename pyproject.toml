@@ -8,7 +8,6 @@ license = { file="./LICENSE" }
 authors = [ { name="Johannes Krattenmacher", email="yeonji@dev.krateng.ch" } ]
 
 urls.repository = "https://github.com/krateng/yeonji"
-urls.documentation = "https://github.com/krateng/yeonji"
 
 keywords = ["scripts", "commandline"]
 classifiers = [
@@ -28,14 +27,14 @@ dependencies = [
 
 [project.scripts]
 borgsize =	"yeonji.borgsize:main"
-flacco =	"yeonji.flacco:main"
 fsclean =	"yeonji.fsclean:main"
 me2dlc =	"yeonji.me2dlc:main"
 mkvthumb =	"yeonji.mkvthumb:main"
-pypi =		"yeonji.pypi:main"
 ytd =		"yeonji.ytd:main"
 ytdlj =		"yeonji.ytdlj:main"
 yttag =		"yeonji.yttag:main"
+
+flacco =	"yeonji.flacco:main"
 
 [build-system]
 requires = ["flit_core >=3.2,<4"]
