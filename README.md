@@ -12,10 +12,6 @@ Clean unicode filenames in a directory tree. Use `--dryrun` to check what would 
 
 Installs ME2 DLCs from exe files on Linux using Steam Proton. Navigate to directory with files, then run `me2dlc`. Requires protontricks.
 
-# ytd
-
-Quickly downloads videos with predefined settings. Use `ytd *URL*` to download to current folder, `ytd -p *preset* *URL*` to download to a preset, and `ytd -n *preset*` (in the target directory) to define new preset. You can specifiy additional options in configuration files in the target folder and all its parent folders.
-
 # ytdlj
 
 Merges any number of local files / youtube videos into a new file. Type `ytdlj *URLs/files* *outputname*`, e.g. `ytdlj party1.mkv ../party2.mkv https://www.youtube.com/watch?v=b3_lVSrPB6w fullvideo.mkv`.

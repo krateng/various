@@ -30,11 +30,11 @@ borgsize =	"yeonji.borgsize:main"
 fsclean =	"yeonji.fsclean:main"
 me2dlc =	"yeonji.me2dlc:main"
 mkvthumb =	"yeonji.mkvthumb:main"
-ytd =		"yeonji.ytd:main"
 ytdlj =		"yeonji.ytdlj:main"
 yttag =		"yeonji.yttag:main"
 
 flacco =	"yeonji.flacco:main"
+ytd =		"yeonji.ytd:main"
 
 [build-system]
 requires = ["flit_core >=3.2,<4"]
