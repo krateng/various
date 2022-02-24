@@ -1,10 +1,5 @@
-import yaml
-import os
-import sys
 from doreah.control import mainfunction
 from doreah.io import col
-
-
 
 @mainfunction({'p':'preset','n':'new'},shield=True)
 def main(url=None,preset=None,new=None,**additionals):

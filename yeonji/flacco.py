@@ -1,6 +1,3 @@
-import sys
-import os
-import re
 from doreah.control import mainfunction
 from doreah.io import col
 
